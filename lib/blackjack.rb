@@ -35,10 +35,12 @@ def initial_round
   first_card = deal_card
   second_card = deal_card
   sum = first_card + second_card
+  display_card_total(sum)
 end
 
-def hit?
+def hit?(number)
   # code hit? here
+  
 end
 
 def invalid_command
