@@ -49,7 +49,7 @@ def hit?(number)
     deal_card
     number += deal_card 
   elsif input == 's'
-    total 
+    number 
   else
     invalid_command
   end 
