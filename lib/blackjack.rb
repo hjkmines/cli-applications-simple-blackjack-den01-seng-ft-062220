@@ -42,13 +42,12 @@ end
 
 def hit?(number)
   # code hit? here
-  total = number 
   prompt_user
   input = get_user_input
   
   if input == 'h'
     deal_card
-    total = number + deal_card
+    deal_card 
   elsif input == 's'
     total 
   else
