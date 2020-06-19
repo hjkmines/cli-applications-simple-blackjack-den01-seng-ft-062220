@@ -40,6 +40,8 @@ end
 
 def hit?(number)
   # code hit? here
+  prompt_user
+  input = get_user_input
   
 end
 
