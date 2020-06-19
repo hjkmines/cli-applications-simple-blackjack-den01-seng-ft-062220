@@ -10,13 +10,14 @@ def deal_card
   return random_number
 end
 
-def display_card_total
+def display_card_total(number)
   # code #display_card_total here
-  
+  puts "Your cards add up to #{number}."
 end
 
 def prompt_user
   # code #prompt_user here
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
