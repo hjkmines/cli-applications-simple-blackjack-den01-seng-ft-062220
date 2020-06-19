@@ -47,11 +47,18 @@ def hit?(number)
   if input == 'h'
     deal_card
     total = number + deal_card
+  elsif input == 's'
+    total 
+  else
+    invalid_command
+  end 
   
 end
 
 def invalid_command
   # code invalid_command here
+  
+  
 end
 
 #####################################################
