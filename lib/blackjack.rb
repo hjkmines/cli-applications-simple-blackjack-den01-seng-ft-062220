@@ -35,7 +35,7 @@ end
 def initial_round
   # code #initial_round here
   sum = deal_card + deal_card
-  output = display_card_total(sum)
+  output = display_card_total(sum).ch
   output 
   binding.pry 
   puts " "
