@@ -35,7 +35,8 @@ end
 def initial_round
   # code #initial_round here
   number = deal_card + deal_card
-  return "Your cards add up to #{number}"
+  display_card_total(number)
+  return number
   
 end
 
