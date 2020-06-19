@@ -73,7 +73,7 @@ def runner
   
   until display_card_total > 21 do 
   hit?
-end 
+  end 
 
 end_game
 
